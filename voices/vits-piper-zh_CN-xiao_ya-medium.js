@@ -1,3 +1,4 @@
+export function loadData(Module) {
 
   var Module = typeof Module != 'undefined' ? Module : {};
 
@@ -126,3 +127,5 @@ Module['FS_createPath']("/", "vits-piper-zh_CN-xiao_ya-medium", true, true);
     loadPackage({"files": [{"filename": "/vits-piper-zh_CN-xiao_ya-medium/MODEL_CARD", "start": 0, "end": 434}, {"filename": "/vits-piper-zh_CN-xiao_ya-medium/date.fst", "start": 434, "end": 59588}, {"filename": "/vits-piper-zh_CN-xiao_ya-medium/lexicon.txt", "start": 59588, "end": 2124093}, {"filename": "/vits-piper-zh_CN-xiao_ya-medium/number.fst", "start": 2124093, "end": 2188575}, {"filename": "/vits-piper-zh_CN-xiao_ya-medium/phone.fst", "start": 2188575, "end": 2277205}, {"filename": "/vits-piper-zh_CN-xiao_ya-medium/tokens.txt", "start": 2277205, "end": 2277690}, {"filename": "/vits-piper-zh_CN-xiao_ya-medium/zh_CN-xiao_ya-medium.onnx", "start": 2277690, "end": 65499831}, {"filename": "/vits-piper-zh_CN-xiao_ya-medium/zh_CN-xiao_ya-medium.onnx.json", "start": 65499831, "end": 65502758}], "remote_package_size": 65502758});
 
   })();
+  Module['vits_piper_zh_CN_xiao_ya_mediumLoaded'] = true;
+}

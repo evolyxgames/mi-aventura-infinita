@@ -1,3 +1,4 @@
+export function loadData(Module) {
 
   var Module = typeof Module != 'undefined' ? Module : {};
 
@@ -126,3 +127,5 @@ Module['FS_createPath']("/", "vits-piper-zh_CN-chaowen-medium", true, true);
     loadPackage({"files": [{"filename": "/vits-piper-zh_CN-chaowen-medium/MODEL_CARD", "start": 0, "end": 273}, {"filename": "/vits-piper-zh_CN-chaowen-medium/date.fst", "start": 273, "end": 59427}, {"filename": "/vits-piper-zh_CN-chaowen-medium/lexicon.txt", "start": 59427, "end": 2123932}, {"filename": "/vits-piper-zh_CN-chaowen-medium/number.fst", "start": 2123932, "end": 2188414}, {"filename": "/vits-piper-zh_CN-chaowen-medium/phone.fst", "start": 2188414, "end": 2277044}, {"filename": "/vits-piper-zh_CN-chaowen-medium/tokens.txt", "start": 2277044, "end": 2277529}, {"filename": "/vits-piper-zh_CN-chaowen-medium/zh_CN-chaowen-medium.onnx", "start": 2277529, "end": 65499670}, {"filename": "/vits-piper-zh_CN-chaowen-medium/zh_CN-chaowen-medium.onnx.json", "start": 65499670, "end": 65502597}], "remote_package_size": 65502597});
 
   })();
+  Module['vits_piper_zh_CN_chaowen_mediumLoaded'] = true;
+}
